@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.summary     = "bounce is a rails method that saves and returns an active record object. If you like skinny controllers, you'll love bounce."
   s.description = %q{
 
-  `bounce` will save and return an active record object. This results in a nice refactor of update and create actions in your controllers. This works really well with `respond_with`.
+  `bounce` will save and return an active record object. This results in a nice refactor of update and create actions in your controllers when used with`respond_with`.
   }
 
   s.rubyforge_project = 'bounce'
