@@ -1,7 +1,7 @@
 bounce
 ======
 
-  `bounce` will save and return an active record object. This results in a nice refactor of update and create actions in your controllers. This works really well with `respond_with`.
+  `bounce` will save and return an active record object. This results in a nice refactor of update and create actions in your controllers when used with`respond_with`.
 
   Refactor this:
 
