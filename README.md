@@ -37,6 +37,8 @@ bounce
         respond_with article.bounce(params[:article])
       end
 
+  If you have more than one controller, extract the `respond_to :html` into the application controller.
+
   If you use [decent_exposure](https://github.com/voxdolo/decent_exposure) you can do this:
 
       respond_to :html
@@ -47,14 +49,6 @@ bounce
       end
       alias update create
 
-  If you have more than one controller, I'll bet you do, extract the `respond_to :html` into the application controller. Now this:
-
-      expose(:article)
-
-      def create
-        respond_with article.bounce
-      end
-      alias update create
 
 Install
 -------
