@@ -41,7 +41,6 @@ bounce
 
   If you use [decent_exposure](https://github.com/voxdolo/decent_exposure) you can do this:
 
-      respond_to :html
       expose(:article)
 
       def create
