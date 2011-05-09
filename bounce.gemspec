@@ -21,4 +21,6 @@ Gem::Specification.new do |s|
   s.files         += Dir.glob("lib/**/*")
 
   s.require_paths = ['lib']
+
+  s.add_dependency             'activerecord', '>= 3.0'
 end
