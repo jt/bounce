@@ -18,9 +18,11 @@ Gem::Specification.new do |s|
   s.rubyforge_project = 'bounce'
 
   s.files          = %w( README.md Rakefile LICENSE )
-  s.files         += Dir.glob("lib/**/*")
+  s.files         += Dir.glob('lib/**/*')
+  s.files         += Dir.glob('test/**/*')
 
   s.require_paths = ['lib']
 
+  s.add_development_dependency 'sqlite3-ruby'
   s.add_dependency             'activerecord', '>= 3.0'
 end
