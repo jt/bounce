@@ -3,11 +3,7 @@ module Bounce
     extend ActiveSupport::Concern
 
     def bounce(params=nil)
-      if params.present?
-        tap {|o| o.update_attributes(params) }
-      else
-        tap(&:save)
-      end
+      tap { |o| params.present? ? o.update_attributes(params) : o.save }
     end
   end
 end
