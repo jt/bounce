@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['John Thomas Marino']
   s.email       = 'writejm@gmail.com'
-  s.homepage    = 'http://github.com/johmas/bounce'
+  s.homepage    = 'http://github.com/johnnytommy/bounce'
   s.summary     = "bounce is a rails method that saves and returns an active record object. If you like skinny controllers, you'll love bounce."
   s.description = %q{
 
